@@ -1,0 +1,28 @@
+class HelloWorld {
+  public static void main(String[] args) {
+    //part 1
+    double pi=3.14;
+    int r=3;
+    double cemberCevre=(pi*2*r);
+    System.out.println(cemberCevre);
+
+    double daireAlan=(pi*r*r);
+    System.out.println(daireAlan);
+
+    //part 2
+
+    int kenar1=4;
+    double kenar2=6.5;
+    double dikdAlan=(kenar1*kenar2);
+    double dikdCevre=(2*kenar1+2*kenar2);
+    System.out.println(dikdAlan);
+    System.out.println(dikdCevre);
+    /*Bastırma Sırası
+      1.Çemberin Çevresi
+      2.Dairenin Alanı
+      3.Dikdörtgenin Alanı
+      4.Dikdörtgenin Çevresi*/
+    
+    
+  }
+}
